@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Roboto:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans+Arabic:wght@100..900&family=Roboto:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Noto+Sans+Arabic:wght@100..900&family=Roboto:ital@0;1&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+  --font-Cairo: "Cairo", sanserif;
+  --font-Roboto: "Roboto", sanserif; 
+  --font-NotoSansArabic: "NotoSansArabic";
+  --font-Lora:"Lora";
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  
+  text-align: center;
+}
+
+
+
+
